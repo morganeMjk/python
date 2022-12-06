@@ -11,3 +11,6 @@
 answer = 42
 golden_ratio = 1.61
 fullname = "Salut Morgane Majchrzak"
+love_python = True
+license_agreement = None
+print(answer, golden_ratio, fullname, love_python, license_agreement)

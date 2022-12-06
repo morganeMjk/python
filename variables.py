@@ -43,6 +43,7 @@ my_boolean1 = True
 my_boolean2 = False
 print(my_boolean1)
 print(my_boolean2)
+print(type(my_boolean1))
 
 # valeur nulle (none)
 
@@ -69,3 +70,10 @@ c = a + b
 a = c - a
 b = c - b
 print(a, b)
+
+
+# transtypage
+foo = "123"
+foo = int(foo)
+print(type(foo))
+
